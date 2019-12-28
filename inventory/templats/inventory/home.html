@@ -1,0 +1,11 @@
+{% extends "inventory/base.html"%}
+
+{% block content %}
+{% for p in allparts %}
+    <h2>{{p.part_name}}</h2>
+    <img src="{{ p.part_photo.url}}" alt="persian" width="400" height="300">
+    <p>{{p.part_cat}}</p>
+    <p>{{p.part_detail}}</p>
+    <br>
+{% endfor %}
+{% endblock content %}
