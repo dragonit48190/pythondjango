@@ -1,2 +1,2 @@
 # pythondjango
-python django beginer
+python django beginer project
